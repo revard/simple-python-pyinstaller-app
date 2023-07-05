@@ -1,5 +1,5 @@
 pipeline {
-    agent bullseye
+    agent {bullseye}
     stages {
         stage('Build') { 
             agent {
